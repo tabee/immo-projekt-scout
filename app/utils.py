@@ -84,28 +84,27 @@ def get_bbox(feature_id):
 def get_expander_box(title_text, list_of_layers, e_gebäude_koord, n_gebäude_koord, iframe_width, hint = " - Keine Informationen vorhanden.", description = None, height=150, display_map=True, is_expanded=None, zoom=11):
     ''' Displays a map with the given layers and a html popup if available.'''
 
-    # Die Elemente der Liste mit Kommas verbinden
-    selected_layers_str = ",".join(list_of_layers)
-    bbox = get_bbox(st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"])
-    iframe_components = get_html_popup_layer_urls_candidates_by_bbox(bbox, list_of_layers)
-    iframe_components2 = get_html_popup_layer_urls_candidates_by_egid(st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"], list_of_layers)
-
-    if iframe_components:
-        if is_expanded is False:
-            pass
-        else:
-            is_expanded = True
-        text = ""
-    else:
-        if is_expanded is True:
+    with st.spinner('Wait for it...'):
+        selected_layers_str = ",".join(list_of_layers) # Die Elemente der Liste mit Kommas verbinden
+        bbox = get_bbox(st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"])
+        iframe_components = get_html_popup_layer_urls_candidates_by_bbox(bbox, list_of_layers)
+        iframe_components2 = get_html_popup_layer_urls_candidates_by_egid(st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"], list_of_layers)
+               
+        if iframe_components:
+            if is_expanded is False:
+                pass
+            else:
+                is_expanded = True
             text = ""
-            pass
         else:
-            is_expanded = False
-            text = "" + hint
+            if is_expanded is True:
+                text = ""
+                pass
+            else:
+                is_expanded = False
+                text = "" + hint
+    # end of the waiting spinner.
     
-    
-
     with st.expander((title_text + text), expanded=is_expanded):
         # display html popup when we find one
         for comp in iframe_components:
@@ -118,11 +117,6 @@ def get_expander_box(title_text, list_of_layers, e_gebäude_koord, n_gebäude_ko
             components.iframe(f'https://map.geo.admin.ch/embed.html?E={e_gebäude_koord}&N={n_gebäude_koord}&time=None&lang=de&notooltip=false&topic=ech&crosshair=bowl&zoom={zoom}&bgLayer=ch.swisstopo.pixelkarte-grau&layers={selected_layers_str}', width=iframe_width, height=420)
         if description:
             st.write(description)
-
-
-
-
-
 
 
 if __name__ == "__main__":

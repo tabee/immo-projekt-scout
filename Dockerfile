@@ -24,7 +24,7 @@ ENV DATA_PATH /app/data/
 RUN adduser --disabled-password --gecos "" myuser
 USER myuser
 
-ENTRYPOINT ["streamlit", "run", "🔎 Immo-Projekt-Scout.py", "--server.port=8501", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "home.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
 
 

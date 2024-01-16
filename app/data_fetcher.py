@@ -1532,9 +1532,6 @@ class DataFetcher:
         return list_we_return
 
 
-
-
-
 if __name__ == "__main__":
     api = DataFetcher()
    
@@ -1548,9 +1545,11 @@ if __name__ == "__main__":
     wohnungsregister = asyncio.run(api.get_wohnungsregister(feature_id))
     pretty_print_json(wohnungsregister)
 
+
     print("\n\nbbox:")
     bbox = wohnungsregister['feature']['bbox']
     pretty_print_json(bbox)
+
 
     print("\n\negid:")
     egid = wohnungsregister['feature']['attributes']['egid']
