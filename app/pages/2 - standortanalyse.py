@@ -129,20 +129,6 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
         is_expanded=default_is_expanded_this_page,
         )
 
-    # Zukünftige Entwicklungspläne der Region
-    st.subheader("Zukünftige Entwicklungspläne der Region")
-    get_expander_box(title_text="Wohnungsinventar / Zweitwohnungsanteil",
-        list_of_layers = [
-            "ch.are.wohnungsinventar-zweitwohnungsanteil",
-        ],
-        e_gebäude_koord=e_gebäude_koord,
-        n_gebäude_koord=n_gebäude_koord,
-        iframe_width=iframe_width,
-        hint="klappt nicht von selber auf, htmlPopup muss noch angepasst werden",
-        height=320,
-        display_map=False,
-    )
-
     # Landwirschaft aussenhalb der Bauzone    
     st.subheader("Ausserhalb der Bauzone")
     get_expander_box(title_text="Landwirtschaftliche Zonengrenzen der Schweiz (Bundesamt für Landwirtschaft BLW)",

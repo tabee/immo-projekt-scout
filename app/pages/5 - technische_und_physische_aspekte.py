@@ -17,15 +17,16 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
     e_gebäude_koord = st.session_state['e_gebäude_koord']
     n_gebäude_koord = st.session_state['n_gebäude_koord']
     iframe_width = st.session_state['iframe_width']
-    default_zoom_this_page = 8
+    default_zoom_this_page = 14
     default_is_expanded_this_page = False
     # end of repeated code
 
 
     # Technische und physische Aspekte
     st.title("Technische und physische Aspekte")
-    get_expander_box(
-        title_text="Steine und Geologie",
+
+    st.subheader("Geologische und topografische Aspekte")
+    get_expander_box(title_text="Steine",
         list_of_layers = [
             "ch.swisstopo.geologie-geocover"],
         e_gebäude_koord=e_gebäude_koord,
@@ -44,8 +45,49 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
 
     # Energieeffizienz und Nachhaltigkeit
     st.subheader("Energieeffizienz und Nachhaltigkeit")
-    st.warning("Energieeffizienz und Nachhaltigkeit")
     # TODO: Erdwärmesonden (Bewilligung)
+    get_expander_box(title_text="Solarenergieeignung",
+        list_of_layers = [
+            "ch.bfe.elektrizitaetsproduktionsanlagen",
+            "ch.bfe.solarenergie-eignung-daecher",
+            #"ch.bfe.solarenergie-eignung-fassaden",
+            ],
+        e_gebäude_koord=e_gebäude_koord,
+        n_gebäude_koord=n_gebäude_koord,
+        iframe_width=iframe_width,
+        height=220,
+        is_expanded=default_is_expanded_this_page,
+        zoom=default_zoom_this_page,
+        display_map=True,
+        hint="",
+    )
+    get_expander_box(title_text="Thermische Netze",
+        list_of_layers = [
+                "ch.bfe.thermische-netze",
+            ],
+        e_gebäude_koord=e_gebäude_koord,
+        n_gebäude_koord=n_gebäude_koord,
+        iframe_width=iframe_width,
+        height=280,
+        is_expanded=default_is_expanded_this_page,
+        zoom=11,
+        display_map=True,
+        hint="",
+    )
+    get_expander_box(title_text="Energieberatungsstelle",
+        list_of_layers = [
+                "ch.bfe.energieberatungsstellen",
+            ],
+        e_gebäude_koord=e_gebäude_koord,
+        n_gebäude_koord=n_gebäude_koord,
+        iframe_width=iframe_width,
+        height=280,
+        is_expanded=default_is_expanded_this_page,
+        zoom=default_zoom_this_page,
+        display_map=False,
+        hint="",
+    )
+
 
     # Zugänglichkeit und Barrierefreiheit
     st.subheader("Zugänglichkeit und Barrierefreiheit")

@@ -23,20 +23,20 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
 
     # Demografische Daten
     st.subheader("Demografische Daten")
-    st.warning("Demografische Daten")
+    st.warning("Nicht implementiert")
 
     # Wirtschaftliche Faktoren
     st.subheader("Wirtschaftliche Faktoren")
-    st.warning("Wirtschaftliche Faktoren")
+    st.warning("Nicht implementiert")
 
     # Wettbewerbsanalyse
     st.subheader("Wettbewerbsanalyse")
-    st.warning("Wettbewerbsanalyse")
+    st.warning("Nicht implementiert")
 
     # Zugang zu Märkten und Handelszentren
     st.subheader("Zugang zu Märkten und Handelszentren")
-    st.warning("Zugang zu Märkten und Handelszentren")
+    st.warning("Nicht implementiert")
 
     # Historische Wertentwicklung
     st.subheader("Historische Wertentwicklung")
-    st.warning("Historische Wertentwicklung")
+    st.warning("Nicht implementiert")

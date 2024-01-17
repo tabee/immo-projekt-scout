@@ -6,10 +6,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-from config import AppConfig
 from data_fetcher import DataFetcher
 
-app_config = AppConfig()
 data_fetcher_api = DataFetcher()
 
 def pretty_print_json(json_data):
