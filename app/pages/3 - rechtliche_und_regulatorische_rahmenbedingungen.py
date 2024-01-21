@@ -60,8 +60,20 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
 
     # Umweltschutzauflagen
     st.subheader("Umweltschutzauflagen")
-    # TODO: Waldinformationen, Archäologische Inventar
-    st.info("Teilweise implementiert.\n (Waldinformationen, Archäologische Inventar, usw.)")
+    # TODO: Archäologische Inventar
+    st.info("Teilweise implementiert.\n (Archäologische Inventar, usw.)")
+    get_expander_box(title_text="Wald",
+        list_of_layers = [
+            "ch.swisstopo.swisstlm3d-wald",
+            "ch.bafu.waldreservate",
+        ],
+        e_gebäude_koord=e_gebäude_koord,
+        n_gebäude_koord=n_gebäude_koord,
+        iframe_width=iframe_width,
+        is_expanded=False,
+        display_map=True,
+        hint="",
+        )
     get_expander_box(title_text="Moorlandschaft",
         list_of_layers = [
              "ch.bafu.bundesinventare-moorlandschaften",
@@ -74,6 +86,7 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
         display_map=True,
         hint="",
         )
+
 
     # Denkmalschutz
     st.subheader("Denkmalschutz")

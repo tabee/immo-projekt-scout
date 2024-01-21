@@ -82,7 +82,7 @@ def get_bbox(feature_id):
 def get_expander_box(title_text, list_of_layers, e_gebäude_koord, n_gebäude_koord, iframe_width, hint = " - Keine Informationen vorhanden.", description = None, height=150, display_map=True, is_expanded=None, zoom=11):
     ''' Displays a map with the given layers and a html popup if available.'''
 
-    with st.spinner('Wait for it...'):
+    with st.spinner('Lade Daten...'):
         selected_layers_str = ",".join(list_of_layers) # Die Elemente der Liste mit Kommas verbinden
         bbox = get_bbox(st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"])
         iframe_components = get_html_popup_layer_urls_candidates_by_bbox(bbox, list_of_layers)

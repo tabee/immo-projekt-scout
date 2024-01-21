@@ -1,4 +1,7 @@
+import time
 import streamlit as st
+import streamlit.components.v1 as components
+
 from app_utils import set_sessions_state, get_address, get_sidebar
 from utils import get_expander_box
 
@@ -16,6 +19,7 @@ if not st.session_state['ch.bfs.gebaeude_wohnungs_register.egaid']:
 if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
     e_gebäude_koord = st.session_state['e_gebäude_koord']
     n_gebäude_koord = st.session_state['n_gebäude_koord']
+    egrid = st.session_state['ch.bfs.gebaeude_wohnungs_register.egrid']
     iframe_width = st.session_state['iframe_width']
     default_zoom_this_page = 8
     default_is_expanded_this_page = False
@@ -23,7 +27,15 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
 
 
     st.title("überblick")
-    
+
+
+    st.subheader("Grundstück")
+    with st.expander(("ÖREB Kanton Bern"), expanded=False):
+        link_oerebview = f"https://oerebview.apps.be.ch/#/d/{egrid}"
+        components.iframe(link_oerebview, width=iframe_width, height=600, scrolling=True)
+        st.markdown(f"Links: [URL](https://oerebview.apps.be.ch/#/d/{egrid}), [PDF](https://www.oereb2.apps.be.ch/extract/pdf?egrid={egrid}&lang=de)", unsafe_allow_html=True)
+
+
     st.subheader("Allgemeine Informationen")
     get_expander_box(title_text="Gemeinde",
         list_of_layers = [
@@ -58,7 +70,7 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
         n_gebäude_koord=n_gebäude_koord,
         iframe_width=iframe_width,
         is_expanded=default_is_expanded_this_page,
-        display_map=True,
+        display_map=False,
         height=330,
         zoom=14,
         hint="",
@@ -75,10 +87,3 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
         height=800,
         hint="",
     )
-
-
-    async def get_wohnungsregister(self, feature_id):
-        ''' Get the wohnungsregister for a given feature id '''
-        object_url = f"https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register/{feature_id}"
-        object_data = await self._fetch_object_data(object_url)
-        return object_data

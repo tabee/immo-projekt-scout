@@ -114,9 +114,22 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
     # Umgebungsqualität
     st.subheader("Umgebungsqualität")
     st.warning("Nicht fertig implementiert(Schulen, Dorfleistungen, etc.)") 
-    get_expander_box(title_text="Dienstanbieter und Downlink 1000",
+    get_expander_box(title_text="Festnetz-Dienstanbieter",
         list_of_layers = [
             "ch.bakom.anbieter-eigenes_festnetz",
+        ],
+        e_gebäude_koord=e_gebäude_koord,
+        n_gebäude_koord=n_gebäude_koord,
+        iframe_width=iframe_width,
+        hint="",
+        height=90,
+        display_map=False,
+        zoom=default_zoom_this_page,
+        is_expanded=default_is_expanded_this_page,
+        )
+    get_expander_box(title_text="Glasfaser und Downlink 1000",
+        list_of_layers = [
+            "ch.bakom.anschlussart-glasfaser",
             "ch.bakom.downlink1000",
         ],
         e_gebäude_koord=e_gebäude_koord,
@@ -128,7 +141,7 @@ if st.session_state["ch.bfs.gebaeude_wohnungs_register.egaid"]:
         zoom=default_zoom_this_page,
         is_expanded=default_is_expanded_this_page,
         )
-
+    
     # Landwirschaft aussenhalb der Bauzone    
     st.subheader("Ausserhalb der Bauzone")
     get_expander_box(title_text="Landwirtschaftliche Zonengrenzen der Schweiz (Bundesamt für Landwirtschaft BLW)",

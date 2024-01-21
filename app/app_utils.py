@@ -23,7 +23,7 @@ def _download_pdf(url):
 def display_pdf(url, iframe_width):
     ''' Anzeigen des PDFs im Streamlit-App. '''
     
-    with st.spinner('Wait for it...'):
+    with st.spinner('Lade Daten...'):
         try:
             pdf_in_memory = _download_pdf(url)
             # Lesen Sie die Daten aus dem BytesIO-Objekt und kodieren Sie sie in Base64
@@ -51,7 +51,8 @@ def get_address():
         default_options=[
             "Bergackerstrasse 11, Freimettigen",
             "Bundesplatz 3 Bern",
-            "Emmentalstrasse 151b Oberburg"
+            "Emmentalstrasse 151b Oberburg",
+            "Waldstrasse 39 Utzenstorf",
             ])
     
     st.info("Bitte oben eine Adresse eingeben.", icon="ℹ️")

@@ -8,6 +8,15 @@ set_sessions_state()
 # Sidebar
 get_sidebar()
 
+# import streamlit.components.v1 as components
+
+# components.iframe("https://oerebview.apps.be.ch/#/d/CH134689350493", height=600, scrolling=True)
+
+
+# url2= "https://www.map.apps.be.ch/pub/synserver?query1=egrid&keyvalue1=CH624480463575&keyname1=EGRID&project=a42pub_oereb_oeffen_DE&language=de&userprofile=geo&client=core"
+# components.iframe(url2, height=600, scrolling=True)
+
+
 # Hauptinhalt der Seite (OHNE egaid)
 if not st.session_state['ch.bfs.gebaeude_wohnungs_register.egaid']:
     get_address()

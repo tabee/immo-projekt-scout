@@ -1448,7 +1448,7 @@ class DataFetcher:
         object_data = await self._fetch_object_data(object_url)
         return object_data
 
-    async def get_from_different_layers_by_bbox(self,bbox,layer):
+    async def get_feature_id_from_different_layers_by_bbox(self,bbox,layer):
         ''' Get data from different layers'''
         geometry_param = ",".join(map(str, bbox))
         layers_param_all = "all:"+layer
@@ -1488,7 +1488,7 @@ class DataFetcher:
         html_popup_layer_urls_for_bbox = []
         for layer in layerlist:
             try:
-                layer_res_feature_id = await self.get_from_different_layers_by_bbox(bbox,layer)
+                layer_res_feature_id = await self.get_feature_id_from_different_layers_by_bbox(bbox,layer)
                # if len(layer_res['results'])>0:
                 url = f"https://api3.geo.admin.ch/rest/services/api/MapServer/{layer_res_feature_id['results'][0]['layerBodId']}/{layer_res_feature_id['results'][0]['featureId']}/htmlPopup?lang=de"
                 html_popup_layer_urls_for_bbox.append(url)
@@ -1499,7 +1499,24 @@ class DataFetcher:
         for url in html_popup_layer_urls_for_bbox:
             list_we_return.append(self._if_extendedHtmlPopup_possible(url))
         return list_we_return
-
+    
+    async def get_json_layer_urls_by_bbox(self,bbox,layerlist=html_popup_layers):
+        if layerlist == None:
+            layerlist = html_popup_layers
+        json_layer_urls_for_bbox = []
+        for layer in layerlist:
+            try:
+                layer_res_feature_from_ididentify = await self.get_feature_id_from_different_layers_by_bbox(bbox,layer)
+                if len(layer_res_feature_from_ididentify['results'])>0:
+                    url = f"https://api3.geo.admin.ch/rest/services/api/MapServer/{layer_res_feature_from_ididentify['results'][0]['layerBodId']}/{layer_res_feature_from_ididentify['results'][0]['featureId']}"
+                    json_layer_urls_for_bbox.append(url)
+            except:
+                pass
+  
+        list_we_return = []
+        for url in json_layer_urls_for_bbox:
+            list_we_return.append(self._if_extendedHtmlPopup_possible(url))
+        return list_we_return
  
     async def get_html_popup_layer_urls_by_egid(self,egid,layerlist=html_popup_layers):
         if layerlist == None:
@@ -1550,21 +1567,30 @@ if __name__ == "__main__":
     bbox = wohnungsregister['feature']['bbox']
     pretty_print_json(bbox)
 
+    test_layer_01_bbox=["ch.are.bauzonen","ch.swisstopo-vd.geometa-grundbuch"]
+
+    print("\n\njson urls by bbox:")
+    #  "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de",
+    urls_to_get_json = asyncio.run(api.get_json_layer_urls_by_bbox(bbox,layerlist=test_layer_01_bbox))
+    pretty_print_json(urls_to_get_json)
+    pretty_print_json_in_textfile(urls_to_get_json)
+
+
 
     print("\n\negid:")
     egid = wohnungsregister['feature']['attributes']['egid']
     pretty_print_json(egid)
 
-    layer_to_test = ["ch.babs.kulturgueter"]
 
-    # print("\n\niframe urls by bbox:")
-    # urls_to_iframe = asyncio.run(api.get_html_popup_layer_urls_by_bbox(bbox,layer_to_test))
-    # pretty_print_json(urls_to_iframe)
-    # pretty_print_json_in_textfile(urls_to_iframe)
+
+    print("\n\niframe urls by bbox:")
+    urls_to_iframe = asyncio.run(api.get_html_popup_layer_urls_by_bbox(bbox,layerlist=test_layer_01_bbox))
+    pretty_print_json(urls_to_iframe)
+    pretty_print_json_in_textfile(urls_to_iframe)
 
 
     print("\n\niframe urls by egid:")
-    urls_to_iframe = asyncio.run(api.get_html_popup_layer_urls_by_egid(egid,layer_to_test))
+    urls_to_iframe = asyncio.run(api.get_html_popup_layer_urls_by_egid(egid,layerlist=test_layer_01_bbox))
     pretty_print_json(urls_to_iframe)
     pretty_print_json_in_textfile(urls_to_iframe)
 

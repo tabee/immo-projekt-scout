@@ -1,1 +1,206 @@
+Size: 131[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.agglomerationsverkehr/222/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.erreichbarkeit-miv/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.erreichbarkeit-oev/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.gemeindetypen/202/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.gueteklassen_oev/5630/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.landschaftstypen/33.05/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.reisezeit-agglomerationen-miv/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.reisezeit-agglomerationen-oev/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.reisezeit-miv/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.reisezeit-oev/35101058/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.windenergie-bundesinteressen/192761/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.wohnungsinventar-zweitwohnungsanteil/35172/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.biogeographische_regionen/4/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.flora-weltensutter_atlas/407/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.gefahren-baugrundklassen/654919/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.gefahren-waldbrand_praeventionsmassnahmen_kantone/313/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.gefahren-waldbrand_warnung/313/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.grundwasserkoerper/447/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.hydrogeologische-karte_100/6/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.hydrologischer-atlas_basisgebiete/653/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.hydrologischer-atlas_bilanzgebiete/270/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.hydrologischer-atlas_flussgebiete/0/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.landesforstinventar-schutzwaldregionen/1/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.landesforstinventar-vegetationshoehenmodell/671578/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.landesforstinventar-vegetationshoehenmodell_relief/163444/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.landesforstinventar-wirtschaftsregionen/4/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.lebensraumkarte-schweiz/4573224/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.sturm-boeenspitzen_30/11811/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.sturm-staudruck_100/6768/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.sturm-staudruck_30/6768/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.sturm-staudruck_300/6768/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.sturm-staudruck_50/6768/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.wasser-teileinzugsgebiete_2/183730/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.wasser-teileinzugsgebiete_40/442/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bag.radonkarte/15859/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bag.zecken-fsme-faelle/4415/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bag.zecken-fsme-impfung/7071/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bak.schutzgebiete-unesco_weltkulturerbe/61/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bakom.anbieter-eigenes_festnetz/698248/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bakom.notruf/351/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bakom.versorgungsgebiet-tv/5/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bakom.versorgungsgebiet-ukw/11/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bazl.einschraenkungen-drohnen/260406/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bazl.intrinsisches-bodenrisiko_sora/338196/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.biomasse-nicht-verholzt/4729/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.biomasse-verholzt/4729/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.energieberatungsstellen/23/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.energiestaedte/86178/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.fernwaerme-nachfrage_wohn_dienstleistungsgebaeude/65119/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.solarenergie-eignung-daecher/14673024/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.solarenergie-eignung-fassaden/-99/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfe.windenergie-geschwindigkeit_h75/1151_964/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.betriebszaehlungen-arbeitsstaetten/4616692/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.betriebszaehlungen-beschaeftigte_vollzeitaequivalente/7569716/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.generalisierte-grenzen_agglomerationen_g1/83613/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.generalisierte-grenzen_agglomerationen_g2/83613/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.volkszaehlung-bevoelkerungsstatistik_einwohner/4196757/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.volkszaehlung-gebaeudestatistik_gebaeude/3369638/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen/244713/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-gruendigkeit/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-kulturland/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-kulturtyp/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-naehrstoffspeichervermoegen/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-skelettgehalt/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-vernaessung/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-wasserdurchlaessigkeit/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.bodeneignung-wasserspeichervermoegen/5016/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-futterbau/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-getreidebau/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-kartoffeln/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-koernermais/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-kulturland/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-spezialkulturen/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-typ/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.klimaeignung-zwischenfruchtbau/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.niederschlagshaushalt/186/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.ursprungsbezeichnungen-fleisch/4065/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.blw.ursprungsbezeichnungen-kaese/4082/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.ensi.zonenplan-notfallschutz-kernanlagen/16/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.kantone.cadastralwebmap-farbe/1524347739/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.amtliche-vermessung/1524347739/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-gemeinde/11/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-grundbuch/2757/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-nfgeom/1539/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-periodische_nachfuehrung/3162886/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.ortschaftenverzeichnis_plz/{341399DB-04CF-4EBE-9BA9-01C314754A4D}/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.spannungsarme-gebiete/CH.BE.AV-MO.c581959a-623e-4f2b-9f5b-5e0371d55e1e/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.stand-oerebkataster/850512/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.dreiecksvermaschung/104/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-eiszeit-lgm/788/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-generalkarte-ggk200.metadata/26/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geocover/182150/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geocover.metadata/1702/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geologische_3dmodelle/170/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geologische_karte/907446/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geologischer_atlas/387997/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geologischer_atlas.metadata/71/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_1000/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_1500/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_2000/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_3000/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_4000/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomol-temperaturverteilung_500/843418/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geomorphologie/7357/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geotechnik-gk200/3/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geotechnik-gk500-genese/2845/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geotechnik-gk500-gesteinsklassierung/1652/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geotechnik-gk500-lithologie_hauptgruppen/7259/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geothermische_potenzialstudien_regional/164/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-geotope_kantone_stand/106/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-gesteinsdichte/3712/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservorkommen/23219/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-hydrogeologische_karte-grundwasservulnerabilitaet/7446/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-spezialkarten_schweiz.metadata/62/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.geologie-tektonische_karte/107446/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.hiks-dufour.metadata/012/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.images-swissimage-dop10.metadata/2600_1199/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.pixelkarte-pk100.metadata/2492/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.pixelkarte-pk200.metadata/14/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.pixelkarte-pk25.metadata/1049/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.pixelkarte-pk50.metadata/1499/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-bezirk-flaeche.fill/246/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill/16401-1850/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissimage-product.metadata/2/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.swissnames3d/15302/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.transformationsgenauigkeit/CH.BE.AV-MO.c581959a-623e-4f2b-9f5b-5e0371d55e1e/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.vec200-landcover/{BB589B73-0C78-4D6B-A23E-F61886159FC8}/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.vec25-gebaeude/12968547/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.vec25-primaerflaechen/10350593/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo.zeitreihen/bv80028860_1973/htmlPopup?lang=de"
+]
+Size: 6[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.belastung-personenverkehr-strasse_zukunft/1230564/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bafu.lebensraumkarte-schweiz/1230564/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register_waermequelle_heizung/1230564/extendedHtmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.volkszaehlung-gebaeudestatistik_wohnungen/1230564/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.stand-oerebkataster/1230564/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.bfs.gebaeude_wohnungs_register/1230564_0/extendedHtmlPopup?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020?lang=de"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020"
+]
+Size: 1[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de"
+]
+Size: 0[]
+Size: 2[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-grundbuch/2757"
+]
+Size: 2[
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.are.bauzonen/375020/htmlPopup?lang=de",
+ "https://api3.geo.admin.ch/rest/services/api/MapServer/ch.swisstopo-vd.geometa-grundbuch/2757/htmlPopup?lang=de"
+]
 Size: 0[]
